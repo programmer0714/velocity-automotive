@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0A0C10</color>
+    <color name="bg_card">#12151C</color>
+    <color name="bg_input">#1A1E28</color>
+    <color name="gold_primary">#C9A84C</color>
+    <color name="gold_light">#E8C96D</color>
+    <color name="gold_dark">#8B6B2A</color>
+    <color name="blue_accent">#1B3A6B</color>
+    <color name="blue_light">#2A5FA8</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8A8F9E</color>
+    <color name="text_gold">#C9A84C</color>
+    <color name="divider">#1E2330</color>
+    <color name="overlay">#80000000</color>
+    <color name="chip_active">#C9A84C</color>
+    <color name="chip_inactive">#1A1E28</color>
+    <color name="status_bar">#0A0C10</color>
+</resources>

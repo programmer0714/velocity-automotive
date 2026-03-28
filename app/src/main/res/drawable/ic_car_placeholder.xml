@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="60dp"
+    android:viewportWidth="100"
+    android:viewportHeight="60">
+
+    <!-- Fondo -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M0,0 H100 V60 H0 Z" />
+
+    <!-- Cuerpo del carro -->
+    <path
+        android:fillColor="#2A2A4A"
+        android:pathData="M15,38 Q18,28 30,26 L45,22 Q55,18 65,22 L78,26 Q88,28 85,38 Z" />
+
+    <!-- Techo -->
+    <path
+        android:fillColor="#333360"
+        android:pathData="M32,26 Q38,16 50,14 Q62,16 68,26 Z" />
+
+    <!-- Rueda izquierda -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M25,38 A8,8 0 1,0 25,38.01 Z" />
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M25,34 A4,4 0 1,0 25,34.01 Z" />
+
+    <!-- Rueda derecha -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M75,38 A8,8 0 1,0 75,38.01 Z" />
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M75,34 A4,4 0 1,0 75,34.01 Z" />
+
+    <!-- Línea dorada lateral -->
+    <path
+        android:strokeColor="#C9A84C"
+        android:strokeWidth="1"
+        android:pathData="M20,33 L80,33" />
+
+</vector>

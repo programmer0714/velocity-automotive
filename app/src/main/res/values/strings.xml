@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Velocity Automotive</string>
+    <string name="tagline">LA COLECCIÓN DEFINITIVA</string>
+    <string name="subtitle">RENDIMIENTO • EXCELENCIA • LUJO</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Crear Cuenta</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="phone_hint">Teléfono número</string>
+    <string name="already_account">Ya tengo cuenta</string>
+    <string name="no_account">¿No tienes cuenta? Regístrate</string>
+    <string name="or_register_with">O regístrate con:</string>
+    <string name="search_hint">Buscar por marca, modelo o especificación...</string>
+    <string name="trends">Tendencias</string>
+    <string name="back">Volver</string>
+    <string name="register_subtitle">Regístrate para una experiencia exclusiva.</string>
+</resources>

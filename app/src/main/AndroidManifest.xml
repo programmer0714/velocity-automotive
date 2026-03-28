@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Velocity"
+        android:usesCleartextTraffic="true">
+
+        <!-- SPLASH -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- LOGIN -->
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- REGISTER -->
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- MAIN -->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- DETALLE DEL CARRO -->
+        <activity
+            android:name=".CarDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- AGENDAR CITA -->
+        <activity
+            android:name=".AppointmentActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- PERFIL -->
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Vista.CategoryActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Vista.CarListByCategoryActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FavoritosActivity"/>
+
+        <activity android:name=".CitasActivity"/>
+
+    </application>
+</manifest>
